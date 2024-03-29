@@ -19,6 +19,7 @@ return {
         "ledger",
         "toml",
         "dart",
+        "php",
       },
     },
   },
