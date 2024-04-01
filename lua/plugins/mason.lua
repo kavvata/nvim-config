@@ -7,6 +7,7 @@ return {
       "phpactor",
       "pretty-php",
       "blade-formatter",
+      "emmet-language-server",
     },
   },
 }
