@@ -2,9 +2,13 @@ return {
   {
     "folke/tokyonight.nvim",
 
-    opts = function(_, opts)
-      opts.transparent = true
-    end,
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
   },
 
   -- Configure LazyVim to load colorscheme
