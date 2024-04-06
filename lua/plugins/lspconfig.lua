@@ -14,7 +14,7 @@ return {
           "scss",
           "pug",
           "typescriptreact",
-          "php",
+          "blade",
         }
       end,
     },

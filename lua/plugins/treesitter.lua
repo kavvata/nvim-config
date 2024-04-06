@@ -2,8 +2,8 @@ return {
   -- add more treesitter parsers
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = {
-      ensure_installed = {
+    opts = function(_, opts)
+      opts.ensure_installed = {
         "bash",
         "html",
         "javascript",
@@ -20,7 +20,18 @@ return {
         "toml",
         "dart",
         "php",
-      },
-    },
+      }
+      ---@class parser_config
+      local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
+
+      parser_config.blade = {
+        install_info = {
+          url = "https://github.com/EmranMR/tree-sitter-blade",
+          files = { "src/parser.c" },
+          branch = "main",
+        },
+        filetype = "blade",
+      }
+    end,
   },
 }

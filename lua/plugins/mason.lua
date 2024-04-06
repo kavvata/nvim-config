@@ -4,6 +4,7 @@ return {
     ensure_installed = {
       "stylua",
       "shfmt",
+      "lua-language-server",
       "phpactor",
       "pretty-php",
       "blade-formatter",
