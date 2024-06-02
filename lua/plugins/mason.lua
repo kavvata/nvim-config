@@ -9,6 +9,7 @@ return {
       "pretty-php",
       "blade-formatter",
       "emmet-language-server",
+      "tailwindcss-language-server",
     },
   },
 }

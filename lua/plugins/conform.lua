@@ -5,6 +5,7 @@ return {
       lua = { "stylua" },
       fish = { "fish_indent" },
       php = { "pretty-php" },
+      blade = { "blade-formatter" },
     }
   end,
 }
