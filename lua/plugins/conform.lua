@@ -6,6 +6,7 @@ return {
       fish = { "fish_indent" },
       php = { "pretty-php" },
       blade = { "blade-formatter" },
+      typescriptreact = { "prettier" },
     }
   end,
 }
