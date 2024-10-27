@@ -12,6 +12,7 @@ return {
       "blade-formatter",
       "emmet-language-server",
       "tailwindcss-language-server",
+      "djlint",
     },
   },
 }
