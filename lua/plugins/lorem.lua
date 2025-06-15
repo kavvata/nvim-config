@@ -8,5 +8,8 @@ return {
       debounce_ms = 200,         -- default debounce time in milliseconds
     }
   end,
-  keys = { { "<leader>il", "<cmd>LoremIpsum words 12<cr>", desc = "LoremIpsum" } },
+  keys = {
+    { "<leader>il", "<cmd>LoremIpsum words 12<cr>",     desc = "LoremIpsum" },
+    { "<leader>iL", "<cmd>LoremIpsum paragraphs 1<cr>", desc = "LoremIpsum paragraph" },
+  },
 }
