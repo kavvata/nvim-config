@@ -13,6 +13,7 @@ return {
       "tailwindcss-language-server",
       "djlint",
       "debugpy"
+      "django-template-lsp",
     },
   },
 }
