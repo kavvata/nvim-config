@@ -7,6 +7,8 @@ return {
       blade = { "blade-formatter" },
       typescriptreact = { "prettier" },
       typescript = { "prettier" },
+      htmldjango = { "djlint" },
+      markdown = { "prettier" }
     }
   end,
 }
