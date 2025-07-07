@@ -12,7 +12,7 @@ return {
       "emmet-language-server",
       "tailwindcss-language-server",
       "djlint",
-      "debugpy"
+      "debugpy",
       "django-template-lsp",
     },
   },
