@@ -4,3 +4,4 @@
 
 -- vim.opt.shell = "pwsh"
 vim.g.lazyvim_python_lsp = "basedpyright"
+vim.g.snacks_animate = false
