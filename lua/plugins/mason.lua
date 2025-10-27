@@ -1,7 +1,7 @@
 return {
   "mason-org/mason.nvim",
-  opts = {
-    ensure_installed = {
+  opts = function(_, opts)
+    vim.list_extend(opts.ensure_installed, {
       "stylua",
       "shfmt",
       "lua-language-server",
@@ -9,11 +9,11 @@ return {
       "pretty-php",
       "prettier",
       "blade-formatter",
-      "emmet-language-server",
       "tailwindcss-language-server",
       "djlint",
       "debugpy",
       "django-template-lsp",
-    },
-  },
+      "html-lsp",
+    })
+  end,
 }

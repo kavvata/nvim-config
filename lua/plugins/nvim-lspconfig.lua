@@ -11,5 +11,8 @@ return {
         },
       },
     }
+    opts.servers.html = {
+      filetypes = { "html", "templ", "htmldjango" },
+    }
   end,
 }
