@@ -16,7 +16,7 @@ return {
     workspaces = {
       {
         name = "personal",
-        path = "~/Documents/mdbase/",
+        path = "~/Documents/Notes/MDBase/",
       },
     },
 
