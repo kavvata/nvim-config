@@ -11,6 +11,7 @@ return {
       "debugpy",
       "django-template-lsp",
       "html-lsp",
+      "nixfmt",
     })
   end,
 }
