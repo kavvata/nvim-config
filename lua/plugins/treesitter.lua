@@ -19,8 +19,6 @@ return {
         "regex",
         "vim",
         "yaml",
-        "ledger",
-        "hledger",
         "toml",
         "dart",
         "php",
