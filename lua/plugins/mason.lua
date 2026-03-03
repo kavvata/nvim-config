@@ -12,6 +12,7 @@ return {
       "django-template-lsp",
       "html-lsp",
       "nixfmt",
+      "fish-lsp",
     })
   end,
 }
