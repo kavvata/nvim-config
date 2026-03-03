@@ -2,7 +2,7 @@ return {
   "neovim/nvim-lspconfig",
   opts = function(_, opts)
     opts.servers.basedpyright = {
-      enabled = true,
+      enabled = false,
       settings = {
         basedpyright = {
           analysis = {
