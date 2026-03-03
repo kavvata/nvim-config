@@ -22,9 +22,6 @@ return {
         "ledger",
         "hledger",
         "toml",
-        "dart",
-        "php",
-        "phpdoc",
         "css",
         "htmldjango",
       })
