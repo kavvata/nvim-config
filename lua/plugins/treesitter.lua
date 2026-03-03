@@ -20,9 +20,6 @@ return {
         "vim",
         "yaml",
         "toml",
-        "dart",
-        "php",
-        "phpdoc",
         "css",
         "htmldjango",
       })

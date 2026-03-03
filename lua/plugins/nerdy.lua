@@ -14,7 +14,7 @@ return {
       mode = { "v", "n" },
       "<Leader>in",
       "<cmd>Nerdy list<cr>",
-      desc = "Insert nerd font glyph",
+      desc = "Insert nerd font glyph / icon",
     },
   },
 }
