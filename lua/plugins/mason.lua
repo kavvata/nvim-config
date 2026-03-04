@@ -5,7 +5,7 @@ return {
       "stylua",
       "shfmt",
       "lua-language-server",
-      "prettier",
+      "biome",
       "tailwindcss-language-server",
       "djlint",
       "debugpy",
