@@ -6,6 +6,8 @@
 vim.g.lazyvim_python_lsp = "ty"
 vim.g.snacks_animate = false
 
+vim.g.autoformat = false
+
 vim.g.clipboard = {
   name = "win32yank",
   copy = {
