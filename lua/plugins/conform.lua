@@ -8,6 +8,8 @@ return {
       typescript = { "prettier" },
       htmldjango = { "djlint" },
       markdown = { "prettier" },
+      json = { "prettier" },
+      jsonc = { "prettier" },
     })
   end,
 }
