@@ -5,13 +5,14 @@ return {
       "stylua",
       "shfmt",
       "lua-language-server",
-      "prettier",
+      "biome",
       "tailwindcss-language-server",
       "djlint",
       "debugpy",
       "django-template-lsp",
       "html-lsp",
       "nixfmt",
+      "fish-lsp",
     })
   end,
 }
