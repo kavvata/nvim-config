@@ -6,4 +6,7 @@ return {
     -- VimTeX configuration goes here, e.g.
     vim.g.vimtex_view_method = "zathura"
   end,
+  keys = { -- load the plugin only when using it's keybinding:
+    { "<C-p>", ":VimtexCompile<cr>", desc = "Compile LaTex file" },
+  },
 }
