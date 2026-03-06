@@ -5,3 +5,4 @@
 -- vim.opt.shell = "pwsh"
 vim.g.lazyvim_python_lsp = "ty"
 vim.g.snacks_animate = false
+vim.opt.spelllang = { "en_us", "pt_br" }
