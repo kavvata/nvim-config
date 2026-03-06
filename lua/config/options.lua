@@ -19,3 +19,4 @@ vim.g.clipboard = {
     ["*"] = "win32yank.exe -o --lf",
   },
 }
+vim.opt.spelllang = { "en_us", "pt_br" }
