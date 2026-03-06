@@ -9,11 +9,11 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
-vim.api.nvim_create_autocmd("BufWritePost", {
-  pattern = { "*.tex" },
-  callback = function()
-    if vim.fn.exists(":VimtexCompile") == 2 and vim.g.autoformat then
-      vim.cmd("VimtexCompile")
-    end
-  end,
-})
+-- vim.api.nvim_create_autocmd("BufWritePost", {
+--   pattern = { "*.tex" },
+--   callback = function()
+--     if vim.fn.exists(":VimtexCompile") == 2 and vim.g.autoformat then
+--       vim.cmd("VimtexCompile")
+--     end
+--   end,
+-- })
