@@ -5,10 +5,10 @@ return {
     opts.image = {
       inline = true,
     }
-    opts.picker.sources = {
-      files = {
-        hidden = true,
-      },
-    }
+    -- opts.picker.sources = {
+    --   files = {
+    --     hidden = true,
+    --   },
+    -- }
   end,
 }
