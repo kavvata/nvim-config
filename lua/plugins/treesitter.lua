@@ -20,7 +20,6 @@ return {
         "vim",
         "yaml",
         "ledger",
-        "hledger",
         "toml",
         "css",
         "htmldjango",
