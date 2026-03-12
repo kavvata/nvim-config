@@ -13,6 +13,7 @@ return {
       "html-lsp",
       "nixfmt",
       "fish-lsp",
+      "css-lsp",
     })
   end,
 }
