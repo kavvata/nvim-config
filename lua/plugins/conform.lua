@@ -10,6 +10,7 @@ return {
       markdown = { "prettier" },
       json = { "prettier" },
       jsonc = { "prettier" },
+      yaml = { "yamlfmt" },
     })
   end,
 }
