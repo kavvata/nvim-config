@@ -6,14 +6,13 @@ return {
       "shfmt",
       "lua-language-server",
       "prettier",
-      "tailwindcss-language-server",
       "djlint",
       "debugpy",
-      "django-template-lsp",
       "html-lsp",
       "nixfmt",
       "fish-lsp",
       "css-lsp",
+      "django-language-server",
     })
   end,
 }

@@ -12,7 +12,7 @@ return {
       },
     }
     opts.servers.html = {
-      filetypes = { "html", "templ", "htmldjango" },
+      filetypes = { "html", "templ" },
     }
   end,
 }
