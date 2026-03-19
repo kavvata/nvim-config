@@ -8,11 +8,11 @@ return {
       "prettier",
       "djlint",
       "debugpy",
-      "django-template-lsp",
       "html-lsp",
       "nixfmt",
       "fish-lsp",
       "css-lsp",
+      "django-language-server",
     })
   end,
 }

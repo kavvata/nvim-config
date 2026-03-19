@@ -13,7 +13,7 @@ return {
     }
     -- opts.servers.pyrefly = { enabled = false }
     opts.servers.html = {
-      filetypes = { "html", "templ", "htmldjango" },
+      filetypes = { "html", "templ" },
     }
   end,
 }
