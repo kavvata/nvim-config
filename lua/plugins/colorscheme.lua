@@ -15,37 +15,58 @@ return {
     "rebelot/kanagawa.nvim",
     config = function()
       require("kanagawa").setup({
-        compile = false,  -- enable compiling the colorscheme
+        compile = false, -- enable compiling the colorscheme
         undercurl = true, -- enable undercurls
         commentStyle = { italic = true },
         functionStyle = {},
         keywordStyle = { italic = true },
         statementStyle = { bold = true },
         typeStyle = {},
-        transparent = true,    -- do not set background color
-        dimInactive = false,   -- dim inactive window `:h hl-NormalNC`
+        transparent = false, -- do not set background color
+        dimInactive = false, -- dim inactive window `:h hl-NormalNC`
         terminalColors = true, -- define vim.g.terminal_color_{0,17}
-        colors = {             -- add/modify theme and palette colors
+        colors = { -- add/modify theme and palette colors
           palette = {},
           theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
         },
         overrides = function(colors) -- add/modify highlights
           return {}
         end,
-        theme = "wave",  -- Load "wave" theme when 'background' option is not set
-        background = {   -- map the value of 'background' option to a theme
+        theme = "wave", -- Load "wave" theme when 'background' option is not set
+        background = { -- map the value of 'background' option to a theme
           dark = "wave", -- try "dragon" !
           light = "lotus",
         },
       })
     end,
   },
-
+  {
+    "zenbones-theme/zenbones.nvim",
+    -- Optionally install Lush. Allows for more configuration or extending the colorscheme
+    -- If you don't want to install lush, make sure to set g:zenbones_compat = 1
+    -- In Vim, compat mode is turned on as Lush only works in Neovim.
+    dependencies = "rktjmp/lush.nvim",
+    lazy = false,
+    priority = 1000,
+    -- you can set set configuration options here
+    -- config = function()
+    --     vim.g.zenbones_darken_comments = 45
+    --     vim.cmd.colorscheme('zenbones')
+    -- end
+  },
+  {
+    "sonph/onehalf",
+    config = function(plugin)
+      vim.opt.rtp:append(plugin.dir .. "/vim")
+    end,
+    priority = 100000,
+    lazy = false,
+  },
   -- Configure LazyVim to load colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa",
+      colorscheme = "kanagawabones",
     },
   },
 }
