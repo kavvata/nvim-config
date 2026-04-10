@@ -1,17 +1,5 @@
 return {
   {
-    "folke/tokyonight.nvim",
-
-    opts = {
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
-    },
-  },
-
-  {
     "rebelot/kanagawa.nvim",
     config = function()
       require("kanagawa").setup({
@@ -53,14 +41,6 @@ return {
     --     vim.g.zenbones_darken_comments = 45
     --     vim.cmd.colorscheme('zenbones')
     -- end
-  },
-  {
-    "sonph/onehalf",
-    config = function(plugin)
-      vim.opt.rtp:append(plugin.dir .. "/vim")
-    end,
-    priority = 100000,
-    lazy = false,
   },
   -- Configure LazyVim to load colorscheme
   {
