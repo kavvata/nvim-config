@@ -1,17 +1,5 @@
 return {
   {
-    "folke/tokyonight.nvim",
-
-    opts = {
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
-    },
-  },
-
-  {
     "rebelot/kanagawa.nvim",
     config = function()
       require("kanagawa").setup({
@@ -32,9 +20,9 @@ return {
         overrides = function(colors) -- add/modify highlights
           return {}
         end,
-        theme = "wave", -- Load "wave" theme when 'background' option is not set
+        theme = "dragon", -- Load "wave" theme when 'background' option is not set
         background = { -- map the value of 'background' option to a theme
-          dark = "wave", -- try "dragon" !
+          dark = "dragon", -- try "dragon" !
           light = "lotus",
         },
       })
@@ -54,19 +42,11 @@ return {
     --     vim.cmd.colorscheme('zenbones')
     -- end
   },
-  {
-    "sonph/onehalf",
-    config = function(plugin)
-      vim.opt.rtp:append(plugin.dir .. "/vim")
-    end,
-    priority = 100000,
-    lazy = false,
-  },
   -- Configure LazyVim to load colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawabones",
+      colorscheme = "zenwritten",
     },
   },
 }
