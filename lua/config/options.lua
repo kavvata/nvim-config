@@ -20,3 +20,4 @@ vim.g.clipboard = {
   },
 }
 vim.opt.spelllang = { "en_us", "pt_br" }
+-- vim.opt.colorcolumn = "100"

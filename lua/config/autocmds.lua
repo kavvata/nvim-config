@@ -9,6 +9,12 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = { "*.yaml.gotmpl" },
+  callback = function()
+    vim.bo.filetype = "yaml"
+  end,
+})
 -- vim.api.nvim_create_autocmd("BufWritePost", {
 --   pattern = { "*.tex" },
 --   callback = function()
